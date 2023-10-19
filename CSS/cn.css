@@ -235,10 +235,9 @@ h1{
     font-size: 40px;
     text-align: center;
 }
-
 /*-----Contact-----*/
 #contact{
-    background-image: linear-gradient(45deg,rgb(22, 22, 149),rgb(66, 6, 66));
+    background-image: linear-gradient(to right top,rgb(22, 22, 149),rgb(66, 6, 66));
 }
 #contact h1 span{
     color: white;
@@ -248,8 +247,7 @@ h1{
     justify-content: space-around;
     margin-top: 20px;
     margin-bottom: 80px;
-    border: 10px solid cyan;
-    width: 70%;
+    width: 80%;
 }
 #details div{
     color: white;
@@ -259,5 +257,31 @@ h1{
     font-size: 40px;
 }
 #message form input{
-    font-size: 40px;
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid grey;
+    background-color: transparent;
+    margin-top: 30px;
+    width: 350px;
+    background-color: transparent;
+    color: white;
+    
+}
+#message form textarea{
+    font-size: 20px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 30px;
+    width: 350px;
+    background-color: transparent;
+    color: white;
+    border-bottom: 1px solid grey;
+}
+#message form button{
+    margin-top: 30px;
+    align-items: center;
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
 }
