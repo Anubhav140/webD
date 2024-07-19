@@ -1,5 +1,5 @@
 body{
-	margin:0px;
+    margin: auto;
     margin-top: -17px;
     background-color: white;
 }
@@ -50,6 +50,7 @@ li{
     margin:0px 30px;
     margin-top: 17px;
 }
+
 li a:hover{
     text-decoration: underline;
     color: lightgray;
@@ -158,8 +159,8 @@ h1{
     width: 20%;
     color: white;
     background-color: White;
-
 }
+
 .skill-progress>div{
     border-radius: 1rem;
 }
@@ -169,8 +170,9 @@ h1{
 }
 
 .skill-name span{
-    color: white;
-    font-size: 24px;
+    color: rgb(175, 168, 168);
+    font-size: 20px;
+    margin: 9px;
 }
 /*----- Percentage -----*/
 .eighty-percent{
@@ -183,7 +185,7 @@ h1{
 .fifty-percent{
     width: 50%;
     height: inherit;
-    background-color: rgb(255, 111, 0);
+    background-color: rgb(32, 153, 181);
     border-radius: 1rem;
 }
 .sixty-percent{
@@ -332,7 +334,7 @@ h1{
     border-bottom: 1px solid grey;
     background-color: transparent;
     margin-top: 100px;
-    width: 350px;
+    width: 25vw;
     background-color: transparent;
     color: white;
     
@@ -355,7 +357,7 @@ h1{
     background-color: transparent;
 }
 #contact-details p span{
-    font-size: 20px;
+    font-size: 3vh;
 }
 #contact-details p{
     margin-left:auto;
@@ -370,10 +372,4 @@ section:target{
 #certificates .img-container:hover .project-name{
     background-color: #00000078;
     color: white;
-}
-#experience{
-    position: fixed;
-    height: auto;
-    margin-bottom: 50px;
-
 }
